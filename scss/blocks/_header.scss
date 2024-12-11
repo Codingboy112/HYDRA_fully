@@ -1,0 +1,16 @@
+.list_item{
+@include font(14px,700px);
+}
+
+.header_menu{
+display: flex;
+}
+
+.header_list{
+display: flex;
+gap: 70px;
+align-items: center;
+left: 229px;
+position: relative;
+}
+

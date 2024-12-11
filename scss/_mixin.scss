@@ -1,0 +1,16 @@
+@mixin font($f:14px,$fw:700px){
+font-size: $fs;
+font-weight: $fw;
+color: white;
+}
+
+@mixin btn($pdg:14px 48px,$rd:30px,$bg:rgba(199, 94, 144, 1),$brd:none){
+padding: $pdg;
+border-radius: $rd;
+background-color: $bg;
+border: $brd;
+background-image: url();
+background-repeat: no-repeat;
+background-position: calc(50% - 40px);
+width: 165px;
+}

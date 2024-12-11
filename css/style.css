@@ -28,14 +28,16 @@ body {
   color: white;
 }
 
-.header_menu {
+.header__wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
-.header_list {
+.header {
+  padding: 30px;
+}
+
+.header__list {
   display: flex;
-  gap: 70px;
-  align-items: center;
-  left: 229px;
-  position: relative;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

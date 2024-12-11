@@ -2,15 +2,17 @@
 @include font(14px,700px);
 }
 
-.header_menu{
-display: flex;
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
-.header_list{
-display: flex;
-gap: 70px;
-align-items: center;
-left: 229px;
-position: relative;
+.header{
+    padding: 30px
 }
 
+.header__list{
+    display: flex;
+    gap: 30px;
+
+}

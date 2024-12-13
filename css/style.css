@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -596,4 +597,115 @@ body {
 }
 .celebrate .first__celebrate .second__user-name {
   margin-top: 20px;
+}
+
+.pricing-section {
+  text-align: center;
+  padding: 3rem;
+  color: #fff;
+  margin-top: 67px;
+}
+.pricing-section h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 4px;
+}
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+.pricing-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #cccccc;
+}
+.pricing-section .pricing-cards {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 100px;
+}
+.pricing-section .pricing-cards .card:nth-child(1) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: black;
+  height: 480px;
+}
+.pricing-section .pricing-cards .card:nth-child(3) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: black;
+  height: 480px;
+}
+.pricing-section .pricing-cards .featured {
+  height: 577px;
+  background-color: #e57399;
+}
+.pricing-section .pricing-cards .featured ul {
+  justify-content: space-evenly;
+}
+.pricing-section .pricing-cards .featured ul li {
+  margin-top: 40px;
+}
+.pricing-section .pricing-cards .featured button {
+  background-color: #e57399;
+  margin-top: 90px;
+}
+.pricing-section .pricing-cards .card {
+  width: 444px;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border: none;
+  position: relative;
+}
+.pricing-section .pricing-cards .card i {
+  position: absolute;
+  right: calc(0% + 40px);
+  font-size: 50px;
+}
+.pricing-section .pricing-cards .card h2 {
+  font-size: 1.5rem;
+  color: #e57399;
+  text-align: center;
+}
+.pricing-section .pricing-cards .card .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+  display: flex;
+  align-items: last baseline;
+}
+.pricing-section .pricing-cards .card .price span {
+  display: block;
+  font-size: 0.8rem;
+  color: #aaaaaa;
+}
+.pricing-section .pricing-cards .card ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pricing-section .pricing-cards .card ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 14px;
+  color: white;
+  line-height: 21px;
+  margin: 0.5rem 0;
+}
+.pricing-section .pricing-cards .card ul li::before {
+  content: "✔️";
+  color: #e57399;
 }/*# sourceMappingURL=style.css.map */

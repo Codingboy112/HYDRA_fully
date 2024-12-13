@@ -1,0 +1,118 @@
+.pricing-section {
+  text-align: center;
+  padding: 3rem;
+  color: #fff;
+  margin-top: 67px;
+
+  h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 4px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: #cccccc;
+  }
+
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 100px;
+    .card:nth-child(1) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background-color: black;
+      height: 480px;
+    }
+    .card:nth-child(3) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: black;
+      height: 480px;
+    }
+    .featured {
+      height: 577px;
+      background-color: #e57399;
+      ul {
+        justify-content: space-evenly;
+        li {
+          margin-top: 40px;
+        }
+      }
+      button {
+        background-color: #e57399;
+        margin-top: 90px;
+      }
+    }
+    .card {
+      width: 444px;
+      border-radius: 20px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      border: none;
+      position: relative;
+      i {
+        position: absolute;
+        right: calc(0% + 40px);
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 1.5rem;
+        color: #e57399;
+        text-align: center;
+      }
+
+      .price {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        text-align: center;
+        display: flex;
+        align-items: last baseline;
+
+        span {
+          display: block;
+          font-size: 0.8rem;
+          color: #aaaaaa;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 14px;
+          color: white;
+          line-height: 21px;
+          margin: 0.5rem 0;
+
+          &::before {
+            content: "✔️";
+            color: #e57399;
+          }
+        }
+      }
+    }
+  }
+}

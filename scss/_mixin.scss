@@ -9,8 +9,14 @@ padding: $pdg;
 border-radius: $rd;
 background-color: $bg;
 border: $brd;
-background-image: url();
-background-repeat: no-repeat;
-background-position: calc(50% - 40px);
-width: 165px;
+}
+
+@mixin d-flex($flx:flex,$gp:12px){
+    display: $flx;
+    gap: $gp;
+}
+
+@mixin mt($bg:rgba(199, 94, 144, 1),$rad: 50%){
+    background: $bg;
+    border-radius:$rad;
 }

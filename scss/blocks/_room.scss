@@ -1,0 +1,82 @@
+.big_cat {
+  width: 576px;
+  height: 571px;
+}
+
+.big_cat-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini_text {
+  @include font(12px, 700);
+  color: rgba(105, 105, 105, 1);
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+}
+.main_heding {
+  @include font(36px, 700px);
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+}
+
+.room_heding {
+  padding: 28px 0px;
+}
+
+.section_room{
+  margin-top: 70px;
+}
+
+.room_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.room_wrapper > div {
+  width: 50%;
+}
+
+.chevron_up-wrapper{
+display: flex;
+gap: 36px;
+}
+
+.chevron_up{
+   @include mt;
+}
+
+.nekoon_text{
+width: 568px;
+@include font(14px,400);
+color: rgba(255, 255, 255, 1);
+}
+
+.nekoon_wrapper{
+position: relative;
+left: 70px;
+
+}
+
+.first_line{
+    border: 2px solid rgba(128, 128, 128, 0.13);
+    margin-top: 35px;
+}
+
+.second_wrapper{
+@include d-flex;
+margin-top: 34px;
+}
+
+.chevron_down{
+margin-top: -10px;
+@include mt;
+}
+
+.potent_corner{
+@include font(20px,700)
+}
+

@@ -1,0 +1,62 @@
+.list_item{
+@include font(14px,700px);
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 30px
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+
+}
+
+.season_btn{
+width: 109px;
+height: 45px;
+border-radius: 40px;
+background-color: white;
+}
+
+.moon_btn{
+    @include btn;
+    background-color: rgba(199, 94, 144, 1);
+    border-radius: 40px;
+    width:27px;
+    height: 45px;
+    }
+    
+    .header__list{
+    margin-top: 30px;
+    }
+    
+
+.header_third{
+display: flex;
+gap: 20px;
+}
+
+.header__btn-2{
+ @include btn();
+}
+
+.crazy_corner{
+@include font(20px,700px)
+}
+
+.header__third{
+display: flex;
+gap: 12px;
+align-items: center;
+}
+
+.all_in-one{
+width: 110px;
+height: 45px;
+}

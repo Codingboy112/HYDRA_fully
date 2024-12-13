@@ -1,0 +1,22 @@
+@mixin font($f:14px,$fw:700px){
+font-size: $fs;
+font-weight: $fw;
+color: white;
+}
+
+@mixin btn($pdg:14px 48px,$rd:30px,$bg:rgba(199, 94, 144, 1),$brd:none){
+padding: $pdg;
+border-radius: $rd;
+background-color: $bg;
+border: $brd;
+}
+
+@mixin d-flex($flx:flex,$gp:12px){
+    display: $flx;
+    gap: $gp;
+}
+
+@mixin mt($bg:rgba(199, 94, 144, 1),$rad: 50%){
+    background: $bg;
+    border-radius:$rad;
+}

@@ -3,6 +3,8 @@
   padding: 3rem;
   color: #fff;
   margin-top: 67px;
+  padding-bottom: 120px;
+  border-radius: 30px;
 
   h3 {
     font-size: 14px;
@@ -22,6 +24,20 @@
     margin-bottom: 2rem;
     color: #cccccc;
   }
+
+.imperia__wrapper{
+display: flex;
+gap: 90px;
+h2{
+    margin-top: 60px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+}
+}
+
 
   .pricing-cards {
     display: flex;
@@ -45,6 +61,7 @@
     .featured {
       height: 577px;
       background-color: #e57399;
+      transform: scale(1.1);
       ul {
         justify-content: space-evenly;
         li {
@@ -59,13 +76,11 @@
     .card {
       width: 444px;
       border-radius: 20px;
-      padding: 2rem;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       position: relative;
-      border: none;
-      position: relative;
+      position: relative;   
       i {
         position: absolute;
         right: calc(0% + 40px);
@@ -116,3 +131,8 @@
     }
   }
 }
+
+.another__card{
+    height: 700px;
+}
+

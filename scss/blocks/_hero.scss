@@ -1,0 +1,163 @@
+.hero {
+  color: white;
+  .hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    .first__hero {
+      .hero__header-text {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.36em;
+        padding: 30px 0px;
+      }
+      .hero__title {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 69px;
+        padding-bottom: 30px;
+      }
+      .hero__text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+      .hero__btn {
+        padding: 18px 40px;
+        border: none;
+        border-radius: 24px;
+        background-color: $main-color;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+      }
+      .hero__play {
+        width: 498px;
+        height: 175px;
+        background-image: url("../assets/hero-play.png  ");
+        background-size: cover;
+        margin-top: 30px;
+        position: relative;
+        .play__watch {
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: 0.36em;
+          margin-left: 20px;
+        }
+        .play__text {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          margin-left: 20px;
+        }
+        .play__btn {
+          position: absolute;
+          top: calc(50% - 15px);
+          right: -20px;
+          font-size: 25px;
+          padding: 12px;
+          border: none;
+          border-radius: 50%;
+          background-color: $main-color;
+          color: white;
+        }
+      }
+    }
+    .second__hero {
+      width: 470px;
+      height: 470px;
+      background-image: url("../assets/cat-and-girl.png");
+      background-size: cover;
+      position: relative;
+      img {
+        width: 130px;
+      }
+      .hero__img1 {
+        position: relative;
+        top: 60px;
+        left: -50px;
+      }
+      .hero__img2 {
+        position: relative;
+        top: 240px;
+        left: -180px;
+      }
+      .hero__img3 {
+        position: relative;
+        bottom: -400px;
+        left: 30px;
+      }
+      .hero__img4 {
+        position: relative;
+        bottom: -260px;
+        left: 100px;
+      }
+    }
+  }
+  .hero__wrapper > div {
+    width: 40%;
+  }
+  .contact {
+    border-radius: 30px;
+    margin-top: 60px;
+    position: relative;
+    .contact__wrapper {
+      display: flex;
+      justify-content: space-between;
+      .first__contact {
+        padding: 40px 20px;
+        width: 65%;
+        background-color: $main-color;
+        border-radius: 30px;
+        .bi {
+          font-size: 28px;
+          padding: 10px 16px;
+          color: white;
+          background-color: #8e345f;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        .little__location {
+          margin-top: 14px;
+        }
+        .contact__little-text {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+        }
+      }
+      .contact__little-wrapper {
+        display: flex;
+      }
+      .second__contact {
+        width: 800px;
+        height: 140px;
+        padding: 50px 50px;
+        background-color: #8e345f;
+        border-radius: 30px;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+        position: absolute;
+        display: flex;
+        gap: 160px;
+        right: 0;
+        .bi {
+          font-size: 28px;
+          padding: 10px 16px;
+          color: white;
+          background-color: $main-color;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        .contact__little-text {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

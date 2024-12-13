@@ -1,0 +1,86 @@
+.book {
+  color: white;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.462);
+  border-radius: 40px;
+  .book__beauty-text {
+    color: #696969;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.36em;
+  }
+  .book__title {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .text__center {
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .form__input-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .half__input {
+    width: 98%;
+    padding: 25px 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+  }
+
+  .half__input::placeholder {
+    color: white;
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+  }
+
+  .input-label {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    letter-spacing: 0.1em;
+  }
+  .big__in-con {
+    width: calc(100% + 10px);
+    margin-top: 30px;
+  }
+  .form__submit {
+    @include btn($pdg: 20px 40px);
+    width: 200px;
+    color: white;
+  }
+  .center__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+}

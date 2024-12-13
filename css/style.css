@@ -19,7 +19,8 @@ a {
 }
 
 body {
-  background-color: rgb(43, 43, 43);
+  background-color: #161616;
+  font-family: "Poppins", sans-serif;
 }
 
 .list_item {
@@ -40,4 +41,366 @@ body {
 .header__list {
   display: flex;
   gap: 30px;
+}
+
+.hero {
+  color: white;
+}
+.hero .hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .hero__wrapper .first__hero .hero__header-text {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.36em;
+  padding: 30px 0px;
+}
+.hero .hero__wrapper .first__hero .hero__title {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 69px;
+  padding-bottom: 30px;
+}
+.hero .hero__wrapper .first__hero .hero__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.hero .hero__wrapper .first__hero .hero__btn {
+  padding: 18px 40px;
+  border: none;
+  border-radius: 24px;
+  background-color: #C75E90;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.hero .hero__wrapper .first__hero .hero__play {
+  width: 498px;
+  height: 175px;
+  background-image: url("../assets/hero-play.png  ");
+  background-size: cover;
+  margin-top: 30px;
+  position: relative;
+}
+.hero .hero__wrapper .first__hero .hero__play .play__watch {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  margin-left: 20px;
+}
+.hero .hero__wrapper .first__hero .hero__play .play__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.hero .hero__wrapper .first__hero .hero__play .play__btn {
+  position: absolute;
+  top: calc(50% - 15px);
+  right: -20px;
+  font-size: 25px;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: #C75E90;
+  color: white;
+}
+.hero .hero__wrapper .second__hero {
+  width: 470px;
+  height: 470px;
+  background-image: url("../assets/cat-and-girl.png");
+  background-size: cover;
+  position: relative;
+}
+.hero .hero__wrapper .second__hero img {
+  width: 130px;
+}
+.hero .hero__wrapper .second__hero .hero__img1 {
+  position: relative;
+  top: 60px;
+  left: -50px;
+}
+.hero .hero__wrapper .second__hero .hero__img2 {
+  position: relative;
+  top: 240px;
+  left: -180px;
+}
+.hero .hero__wrapper .second__hero .hero__img3 {
+  position: relative;
+  bottom: -400px;
+  left: 30px;
+}
+.hero .hero__wrapper .second__hero .hero__img4 {
+  position: relative;
+  bottom: -260px;
+  left: 100px;
+}
+.hero .hero__wrapper > div {
+  width: 40%;
+}
+.hero .contact {
+  border-radius: 30px;
+  margin-top: 60px;
+  position: relative;
+}
+.hero .contact .contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .contact .contact__wrapper .first__contact {
+  padding: 40px 20px;
+  width: 65%;
+  background-color: #C75E90;
+  border-radius: 30px;
+}
+.hero .contact .contact__wrapper .first__contact .bi {
+  font-size: 28px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #8e345f;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.hero .contact .contact__wrapper .first__contact .little__location {
+  margin-top: 14px;
+}
+.hero .contact .contact__wrapper .first__contact .contact__little-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.hero .contact .contact__wrapper .contact__little-wrapper {
+  display: flex;
+}
+.hero .contact .contact__wrapper .second__contact {
+  width: 800px;
+  height: 140px;
+  padding: 50px 50px;
+  background-color: #8e345f;
+  border-radius: 30px;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  position: absolute;
+  display: flex;
+  gap: 160px;
+  right: 0;
+}
+.hero .contact .contact__wrapper .second__contact .bi {
+  font-size: 28px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #C75E90;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.hero .contact .contact__wrapper .second__contact .contact__little-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.care__wrapper {
+  display: flex;
+  color: white;
+  margin-top: 70px;
+  gap: 30px;
+}
+.care__wrapper .care__same-cards {
+  width: 25%;
+}
+.care__wrapper .care__starter-card {
+  padding: 36px;
+  background-color: #C75E90;
+  border-radius: 40px;
+}
+.care__wrapper .care__starter-card .starter__card-toptext {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  margin-top: 30px;
+}
+.care__wrapper .care__starter-card .starter__card-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin: 20px 0px;
+}
+.care__wrapper .care__starter-card .starter__card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.care__wrapper .care__starter-card .starter__card-btn {
+  padding: 14px 48px;
+  border-radius: 30px;
+  background-color: #8e345f;
+  border: none;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: calc(50% - 40px);
+  width: 165px;
+  width: 190px;
+  margin-top: 40px;
+  color: white;
+}
+.care__wrapper .care__other-cards {
+  margin-top: 30px;
+}
+.care__wrapper .care__other-cards img {
+  width: 100%;
+}
+.care__wrapper .care__other-cards .other__card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 14px;
+}
+.care__wrapper .care__other-cards .other__card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.img__divs {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.img__divs .same__imgs {
+  width: 16%;
+  height: 243px;
+  background-size: cover;
+  position: relative;
+}
+.img__divs .same__imgs .bi {
+  padding: 10px 13px;
+  background-color: #C75E90;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -21px;
+  right: 30px;
+}
+.img__divs .care__img1 {
+  background-image: url("../assets/Cat/cat__1.png");
+}
+.img__divs .care__img2 {
+  background-image: url("../assets/Cat/cat__2.png");
+}
+.img__divs .care__img3 {
+  background-image: url("../assets/Cat/cat__3.png");
+}
+.img__divs .care__img4 {
+  background-image: url("../assets/Cat/cat__4.png");
+}
+.img__divs .care__img5 {
+  background-image: url("../assets/Cat/cat__5.png");
+}
+.img__divs .care__img6 {
+  background-image: url("../assets/Cat/cat__6.png");
+}
+
+.book {
+  color: white;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.462);
+  border-radius: 40px;
+}
+.book .book__beauty-text {
+  color: #696969;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+}
+.book .book__title {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.book .text__center {
+  width: 1130px;
+  margin: 0 auto;
+  text-align: center;
+}
+.book .form__input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.book .form__input-wrapper .form__input-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.book .input-container {
+  position: relative;
+  width: 100%;
+}
+.book .half__input {
+  width: 98%;
+  padding: 25px 20px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+.book .half__input::-moz-placeholder {
+  color: white;
+  position: relative;
+  top: 4px;
+  font-size: 16px;
+}
+.book .half__input::placeholder {
+  color: white;
+  position: relative;
+  top: 4px;
+  font-size: 16px;
+}
+.book .input-label {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+  letter-spacing: 0.1em;
+}
+.book .big__in-con {
+  width: calc(100% + 10px);
+  margin-top: 30px;
+}
+.book .form__submit {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(199, 94, 144);
+  border: none;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: calc(50% - 40px);
+  width: 165px;
+  width: 200px;
+  color: white;
+}
+.book .center__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

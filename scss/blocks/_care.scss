@@ -1,0 +1,96 @@
+.care__wrapper {
+  display: flex;
+  color: white;
+  margin-top: 70px;
+  gap: 30px;
+  .care__same-cards {
+    width: 25%;
+  }
+  .care__starter-card {
+    padding: 36px;
+    background-color: $main-color;
+    border-radius: 40px;
+    .starter__card-toptext {
+      color: black;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.36em;
+      margin-top: 30px;
+    }
+    .starter__card-title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 54px;
+      margin: 20px 0px;
+    }
+    .starter__card-text {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .starter__card-btn {
+      @include btn($bg: #8e345f);
+      width: 190px;
+      margin-top: 40px;
+      color: white;
+    }
+  }
+  .care__other-cards {
+    margin-top: 30px;
+    img {
+      width: 100%;
+    }
+    .other__card-title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      margin-top: 14px;
+    }
+    .other__card-text {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      margin-top: 15px;
+      margin-left: 4px;
+    }
+  }
+}
+.img__divs {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  .same__imgs {
+    width: 16%;
+    height: 243px;
+    background-size: cover;
+    position: relative;
+    .bi {
+      padding: 10px 13px;
+      background-color: $main-color;
+      color: white;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -21px;
+      right: 30px;
+    }
+  }
+  .care__img1 {
+    background-image: url("../assets/Cat/cat__1.png");
+  }
+  .care__img2 {
+    background-image: url("../assets/Cat/cat__2.png");
+  }
+  .care__img3 {
+    background-image: url("../assets/Cat/cat__3.png");
+  }
+  .care__img4 {
+    background-image: url("../assets/Cat/cat__4.png");
+  }
+  .care__img5 {
+    background-image: url("../assets/Cat/cat__5.png");
+  }
+  .care__img6 {
+    background-image: url("../assets/Cat/cat__6.png");
+  }
+}

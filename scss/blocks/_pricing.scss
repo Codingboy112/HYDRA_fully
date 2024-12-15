@@ -49,14 +49,14 @@ img{
     .card:nth-child(1) {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-      background-color: black;
-      height: 480px;
+      background-color: #161616;
+      height: 580px;
     }
     .card:nth-child(3) {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
-      background-color: black;
-      height: 480px;
+      background-color: #161616;
+      height: 580px;
     }
     .featured {
       height: 577px;
@@ -123,8 +123,11 @@ img{
           margin: 0.5rem 0;
 
           &::before {
-            content: "✔️";
-            color: #e57399;
+            content: "";
+           background-image: url('../rasim/check-circle.png');
+           width: 30px;
+           height: 30px;
+           background-size: cover;
           }
         }
       }

@@ -922,6 +922,34 @@ footer {
   margin-top: 20px;
 }
 
+.first__celebrate {
+  position: relative;
+}
+
+.first__celebrate-icon {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: -30px;
+}
+.first__celebrate-icon .bi {
+  background-color: #C75E90;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 19px;
+}
+
+.second__celebrate-icon {
+  position: absolute;
+  top: calc(50% - 20px);
+  right: -30px;
+}
+.second__celebrate-icon .bi {
+  background-color: #C75E90;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 19px;
+}
+
 .first__user-pic img {
   border: 4px solid #C75E90;
   border-radius: 50%;
@@ -974,14 +1002,14 @@ footer {
 .pricing-section .pricing-cards .card:nth-child(1) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  background-color: black;
-  height: 480px;
+  background-color: #161616;
+  height: 580px;
 }
 .pricing-section .pricing-cards .card:nth-child(3) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: black;
-  height: 480px;
+  background-color: #161616;
+  height: 580px;
 }
 .pricing-section .pricing-cards .featured {
   height: 577px;
@@ -1047,8 +1075,11 @@ footer {
   margin: 0.5rem 0;
 }
 .pricing-section .pricing-cards .card ul li::before {
-  content: "✔️";
-  color: #e57399;
+  content: "";
+  background-image: url("../rasim/check-circle.png");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
 }
 
 .another__card {
